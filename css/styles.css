@@ -86,12 +86,32 @@ body {
   text-decoration: none;
 }
 
+.link,
+.web-studio {
+  display: block;
+}
+
+.web-studio {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.navigation-list-link,
+.header-tel-link,
+.header-mail-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .link:hover,
 .link:focus {
   color: #2196f3;
 }
 
 .list {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   list-style: none;
 }
 
@@ -118,10 +138,15 @@ body {
 .header .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.header-mail-link {
+  margin-right: 30px;
 }
 
 .header-utils {
-  margin-left: auto;
+  display: flex;
 }
 
 .navigation-list-item:not(:last-child) {
@@ -151,6 +176,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+  margin-top: 30px;
 }
 
 .modal-btn:hover,
@@ -190,6 +216,39 @@ body {
   color: #ffffff;
 }
 
+/* Main */
+
+.main-title {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main {
+  padding-top: 200px;
+  padding-right: 452px;
+  padding-bottom: 280px;
+  padding-left: 452px;
+  text-align: center;
+  background-color: #2f303a;
+  flex-grow: 1;
+}
+
+/* features */
+
+.features,
+.our-works,
+.our-team,
+.regular-customer,
+.footer {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .feature-subtitle,
 .description,
 .work-title,
@@ -200,6 +259,34 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #212121;
+}
+
+.features {
+  margin-top: 94px;
+}
+
+.feature-list,
+.feature-description {
+  display: flex;
+  padding-left: 0px;
+  justify-content: space-between;
+  width: 270px;
+}
+
+.feature-subtitle {
+  width: 270px;
+}
+.features-image {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+}
+
+.features-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .description {
@@ -248,32 +335,6 @@ body {
   color: #757575;
 }
 
-/* Footer */
-
-.footer-adress,
-.footer-mail,
-.footer-tel,
-.join {
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.71;
-  /* or 171% */
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-adress,
-.join {
-  color: #ffffff;
-}
-
-.join {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
 /* Work-btn */
 
 .work-btn {
@@ -313,4 +374,37 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+}
+
+/* Footer */
+
+.footer-adress,
+.footer-mail,
+.footer-tel,
+.join {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-adress,
+.join {
+  color: #ffffff;
+}
+
+.join {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.footer {
+  display: flex;
+}
+.footer .container {
+  display: flex;
 }
