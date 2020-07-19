@@ -274,7 +274,11 @@ body {
 }
 
 .feature-subtitle {
-  width: 270px;
+  height: 16px;
+}
+
+.description {
+  height: 75px;
 }
 .features-image {
   background-color: #f5f4fa;
@@ -296,6 +300,42 @@ body {
 
 .feature-subtitle {
   text-transform: uppercase;
+}
+
+/* Our web-work*/
+
+.works-list {
+  display: flex;
+  padding-left: 0px;
+  justify-content: space-between;
+}
+
+.work-title {
+  margin-top: 94px;
+}
+
+.works-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-works-list {
+  margin-top: 50px;
+}
+
+.description {
+  padding-top: 27px;
+  padding-right: 82px;
+  padding-bottom: 27px;
+  padding-left: 82px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.work-images {
+  width: 370px;
+  height: 294px;
+  margin-bottom: 94px;
 }
 
 .work-title,
@@ -333,6 +373,54 @@ body {
   font-weight: normal;
   /* identical to box height */
   color: #757575;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  width: 1170px;
+  height: 422px;
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-bottom: 94px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+.social-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.subtitle-team {
+  margin-top: 30px;
+}
+
+.description-team {
+  margin-top: 10px;
+}
+
+.social-list {
+  margin-top: 16px;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  width: 1600px;
+  height: 702px;
+}
+
+.team-title {
+  padding-bottom: 50px;
+}
+
+.our-team-descripton:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Work-btn */
@@ -402,9 +490,6 @@ body {
   text-transform: uppercase;
 }
 
-.footer {
-  display: flex;
-}
 .footer .container {
   display: flex;
 }
