@@ -456,7 +456,7 @@ body {
   color: #ffffff;
 }
 
-.samples {
+.samples-list {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -464,21 +464,17 @@ body {
   margin-right: auto;
 }
 
-.btm-description {
-  margin-top: 93px;
-  width: 611px;
-  height: 54px;
-  margin-right: 495px;
-  margin-right: 495px;
-  align-items: center;
+.work-btn:not(:last-child) {
+  margin-right: 8px;
 }
 
-.samples-list {
-  flex-wrap: wrap;
-  padding-left: 0px;
-  justify-content: space-between;
+.btn-description {
+  margin-top: 93px;
+  display: flex;
+  justify-content: center;
 }
-/* Work */
+
+/* Work Portfolio */
 
 .samples-description {
   font-style: normal;
