@@ -274,11 +274,9 @@ body {
 }
 
 .feature-subtitle {
-  height: 16px;
 }
 
 .description {
-  height: 75px;
 }
 .features-image {
   background-color: #f5f4fa;
@@ -334,7 +332,7 @@ body {
 
 .work-images {
   width: 370px;
-  height: 294px;
+
   margin-bottom: 94px;
 }
 
@@ -365,13 +363,13 @@ body {
 
 .team-list {
   font-weight: 500;
-  /* identical to box height */
+
   color: #212121;
 }
 
 .description-team {
   font-weight: normal;
-  /* identical to box height */
+
   color: #757575;
 }
 
@@ -380,7 +378,7 @@ body {
   justify-content: space-between;
   padding-left: 0px;
   width: 1170px;
-  height: 422px;
+
   padding-left: 215px;
   padding-right: 215px;
   padding-bottom: 94px;
@@ -412,7 +410,6 @@ body {
   background-color: #f5f4fa;
   padding-top: 94px;
   width: 1600px;
-  height: 702px;
 }
 
 .team-title {
@@ -427,7 +424,6 @@ body {
 
 .regular-customer {
   width: 1170px;
-  height: 182px;
 }
 
 .customer-list {
