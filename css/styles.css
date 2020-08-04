@@ -134,7 +134,7 @@ body {
   align-items: center;
 }
 .web-studio {
-  margin-right: 85px;
+  
 }
 
 .header .container {
@@ -481,7 +481,7 @@ body {
 
 /* Footer */
 
-.footer .web-studio {
+.footer-description .web-studio {
   color: #ffffff;
 }
 
@@ -508,7 +508,7 @@ body {
   text-transform: uppercase;
 }
 
-.container .footer-description {
+.footer-description {
   background-color: #2f303a;
 }
   
@@ -518,17 +518,18 @@ body {
 
 .footer-web {
   margin-top: 60px;
-}
-
-.web-studio  {
-  margin-right: 214px;
+  
 }
 
 .footer-join {
   margin-top: 72px;
+  padding-left: 69px;
 }
 
 .join {
   margin-bottom: 20px;
 }
 
+.footer-list {
+  padding-left: 0px;
+}
