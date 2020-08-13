@@ -128,7 +128,7 @@ body {
   padding-bottom: 94px;
 }
 
-.section .title {
+.section-title {
   margin-top: 0;
   margin-bottom: 50px;
 }
@@ -345,9 +345,8 @@ body {
 
 .team-list {
   font-weight: 500;
-
   color: #212121;
-}
+  }
 
 .description-team {
   font-weight: normal;
@@ -359,6 +358,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-bottom: 94px;
+  padding-left: 0px;
 }
 
 .social-list {
@@ -403,6 +403,11 @@ body {
   padding-left: 0px;
   justify-content: space-between;
 }
+
+.our-customer-descripton:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* Work-btn portfolio*/
 
 .work-btn {
@@ -441,6 +446,7 @@ body {
 .samples-list {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0px;
 }
 
 .samples-list-item {
