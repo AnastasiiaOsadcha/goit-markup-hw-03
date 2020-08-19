@@ -100,7 +100,8 @@ body {
 .header-tel-link,
 .header-mail-link {
   padding-top: 32px;
-  padding-bottom: 32px;}
+  padding-bottom: 32px;
+}
 
 .link:hover,
 .link:focus {
@@ -121,16 +122,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   /* margin-top: 50px; */
-  }
+}
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.section-title {
-  margin-top: 0;
-  margin-bottom: 50px;
 }
 
 .navigation-list {
@@ -141,11 +137,8 @@ body {
   display: flex;
   align-items: center;
 }
-.web-studio {
-  
-}
 
-.section .container {
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -198,7 +191,7 @@ body {
 }
 
 .web-studio,
-.web-studio-element {
+.web-element {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -211,7 +204,7 @@ body {
   color: #000000;
 }
 
-.web-studio-element {
+.web-element {
   color: #2196f3;
 }
 
@@ -239,9 +232,7 @@ body {
 
 .feature-subtitle,
 .description,
-.section-title,
-.team-title,
-.customer-title {
+.section-title {
   font-style: normal;
   font-weight: bold;
   line-height: 1.14;
@@ -258,14 +249,8 @@ body {
   display: flex;
   padding-left: 0px;
   justify-content: space-between;
-  
 }
 
-.feature-subtitle {
-}
-
-.description {
-}
 .features-image {
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -300,10 +285,6 @@ body {
   justify-content: space-between;
 }
 
-.section-title {
-  margin-top: 94px;
-}
-
 .works-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -318,12 +299,12 @@ body {
   margin-bottom: 0px;
 }
 
-.section-title,
-.team-title,
-.customer-title {
+.section-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .feature-description {
@@ -346,7 +327,7 @@ body {
 .team-list {
   font-weight: 500;
   color: #212121;
-  }
+}
 
 .description-team {
   font-weight: normal;
@@ -367,7 +348,7 @@ body {
   padding-left: 0px;
 }
 
-.social-list:not(:last-child) {
+.social-icon:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -381,10 +362,6 @@ body {
 
 .social-list {
   margin-top: 16px;
-}
-
-.team-title {
-  padding-bottom: 50px;
 }
 
 .our-team-descripton:not(:last-child) {
@@ -495,7 +472,7 @@ body {
 
 /* Footer */
 
-.footer-description .web-studio {
+.studio-element {
   color: #ffffff;
 }
 
@@ -522,22 +499,8 @@ body {
   text-transform: uppercase;
 }
 
-.footer-description {
+.footer {
   background-color: #2f303a;
-}
-  
-.footer-description {
-  display: flex;
-}
-
-.footer-web {
-  margin-top: 60px;
-  
-}
-
-.footer-join {
-  margin-top: 72px;
-  padding-left: 69px;
 }
 
 .join {
