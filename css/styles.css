@@ -125,8 +125,16 @@ body {
 }
 
 .section {
+  /* padding-top: 94px; */
+  padding-bottom: 94px;
+}
+
+.section-main {
+  padding-bottom: 94px;
+}
+
+.team-color {
   padding-top: 94px;
-  /* padding-bottom: 94px; */
 }
 
 .navigation-list {
@@ -159,12 +167,12 @@ body {
   display: block;
 }
 
-.header-mail-link {
-  margin-right: 30px;
-}
-
 .header-utils {
   display: flex;
+}
+
+.address:not(:last-child) {
+  margin-right: 30px;
 }
 
 .navigation-list-item:not(:last-child) {
@@ -242,7 +250,7 @@ body {
 
 .main {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   text-align: center;
   background-color: #2f303a;
 }
@@ -398,6 +406,10 @@ body {
 
 .our-team-descripton:not(:last-child) {
   margin-right: 30px;
+}
+
+.our-team-descripton {
+  border: 1px solid #eeeeee;
 }
 
 /* Customer */
@@ -566,6 +578,8 @@ body {
 }
 
 .footer .web-studio {
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
