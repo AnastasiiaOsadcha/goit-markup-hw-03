@@ -149,7 +149,7 @@ body {
   align-items: center;
 }
 
-.container {
+.header > .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -517,6 +517,7 @@ body {
   margin-left: 24px;
 }
 
+.
 /* Work Portfolio */
 
 .samples-description {
@@ -593,7 +594,3 @@ body {
   padding-bottom: 60px;
 }
 
-/* .web-studio .footer {
-  padding-top: 0px;
-  padding-bottom: 0px;
-} */
