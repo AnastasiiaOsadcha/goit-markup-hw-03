@@ -450,6 +450,11 @@ body {
     0px 3px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   color: #ffffff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 
 .portfolio-main {
@@ -508,7 +513,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   padding-left: 0px;
 }
 
@@ -527,10 +532,15 @@ body {
 }
 
 .work-btn-description {
-  padding-top: 6px;
-  padding-right: 20px;
-  padding-bottom: 6px;
-  padding-left: 20px;
+  font-family: var(--mainfont);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--bodycolor);
+  text-decoration: none;
+  border: none;
+  padding: 6px 20px;
 }
 
 /* Work Portfolio */
@@ -613,7 +623,7 @@ body {
   margin-left: 70px;
 }
 
-.web-studio > .infoadress {
+.footer .web-studio {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 20px;
