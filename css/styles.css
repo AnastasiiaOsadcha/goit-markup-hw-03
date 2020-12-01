@@ -133,11 +133,6 @@ body {
   padding-bottom: 94px;
 }
 
-.team-color {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .navigation-list {
   display: flex;
   margin-left: 40px;
@@ -156,10 +151,10 @@ body {
   justify-content: space-between;
 }
 
-.team-color {
+/* .team-color {
   background-color: #f5f4fa;
   height: 648px;
-}
+} */
 
 .our-team-descripton {
   background-color: #ffffff;
@@ -167,6 +162,7 @@ body {
 
 .foto {
   display: block;
+  margin-bottom: 30px;
 }
 
 .header-utils {
@@ -207,6 +203,8 @@ body {
   margin-top: 30px;
   width: 200px;
   height: 50px;
+  text-decoration: none;
+  border: none;
 }
 
 .modal-btn:hover,
@@ -358,6 +356,12 @@ body {
 
 /* Our team*/
 
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+
 .team-list,
 .description-team {
   font-style: normal;
@@ -380,8 +384,13 @@ body {
 .team-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
   padding-left: 0px;
+}
+
+.description-team {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .social-list {
@@ -395,11 +404,12 @@ body {
 }
 
 .subtitle-team {
-  margin-top: 30px;
+  margin-bottom: 18px;
+  margin-top: 0px;
 }
 
 .description-team {
-  margin-top: 10px;
+  padding-bottom: 30px;
 }
 
 .social-list {
@@ -412,6 +422,9 @@ body {
 
 .our-team-descripton {
   border: 1px solid #eeeeee;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Customer */
@@ -513,7 +526,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   padding-left: 0px;
 }
 
@@ -578,6 +591,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 
 .footer-adress,
@@ -585,10 +599,9 @@ body {
   color: #ffffff;
 }
 
-.footer-adress,
-.footer-mail {
+/* .footer-list-item {
   margin-bottom: 9px;
-}
+} */
 
 .join {
   font-weight: bold;
